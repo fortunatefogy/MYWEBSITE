@@ -69,6 +69,7 @@ a:hover {
 /* HAMBURGER MENU */
 
 #hamburger-nav {
+  /* position: fixed; */
   display: none;
 }
 
@@ -429,4 +430,10 @@ footer {
 
 footer p {
   text-align: center;
+}
+.circular-icon {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Same as width for a perfect circle */
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
 }
